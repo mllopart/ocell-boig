@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A04E1531E35820D008B5BFA /* Blue 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E14F1E35820D008B5BFA /* Blue 1.png */; };
+		6A04E1541E35820D008B5BFA /* Blue 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1501E35820D008B5BFA /* Blue 2.png */; };
+		6A04E1551E35820D008B5BFA /* Blue 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1511E35820D008B5BFA /* Blue 3.png */; };
+		6A04E1561E35820D008B5BFA /* Blue 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1521E35820D008B5BFA /* Blue 4.png */; };
+		6A04E15B1E35821A008B5BFA /* Green 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1571E35821A008B5BFA /* Green 1.png */; };
+		6A04E15C1E35821A008B5BFA /* Green 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1581E35821A008B5BFA /* Green 2.png */; };
+		6A04E15D1E35821A008B5BFA /* Green 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1591E35821A008B5BFA /* Green 3.png */; };
+		6A04E15E1E35821A008B5BFA /* Green 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E15A1E35821A008B5BFA /* Green 4.png */; };
+		6A04E1631E35822C008B5BFA /* Red 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E15F1E35822C008B5BFA /* Red 1.png */; };
+		6A04E1641E35822C008B5BFA /* Red 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1601E35822C008B5BFA /* Red 2.png */; };
+		6A04E1651E35822C008B5BFA /* Red 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1611E35822C008B5BFA /* Red 3.png */; };
+		6A04E1661E35822C008B5BFA /* Red 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E1621E35822C008B5BFA /* Red 4.png */; };
+		6A04E16D1E35826A008B5BFA /* Dead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E16A1E358269008B5BFA /* Dead.mp3 */; };
+		6A04E16E1E35826A008B5BFA /* Fly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E16B1E358269008B5BFA /* Fly.mp3 */; };
+		6A04E16F1E35826A008B5BFA /* Score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A04E16C1E358269008B5BFA /* Score.mp3 */; };
+		6ABF52391E357EE2001217E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF52381E357EE2001217E7 /* AppDelegate.swift */; };
+		6ABF523B1E357EE2001217E7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF523A1E357EE2001217E7 /* GameScene.sks */; };
+		6ABF523D1E357EE2001217E7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF523C1E357EE2001217E7 /* Actions.sks */; };
+		6ABF523F1E357EE2001217E7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF523E1E357EE2001217E7 /* GameScene.swift */; };
+		6ABF52411E357EE2001217E7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF52401E357EE2001217E7 /* GameViewController.swift */; };
+		6ABF52441E357EE2001217E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF52421E357EE2001217E7 /* Main.storyboard */; };
+		6ABF52461E357EE2001217E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF52451E357EE2001217E7 /* Assets.xcassets */; };
+		6ABF52491E357EE2001217E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF52471E357EE2001217E7 /* LaunchScreen.storyboard */; };
+		6ABF52541E357EE2001217E7 /* Ocell_boigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF52531E357EE2001217E7 /* Ocell_boigTests.swift */; };
+		6ABF525F1E357EE2001217E7 /* Ocell_boigUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF525E1E357EE2001217E7 /* Ocell_boigUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABF52501E357EE2001217E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABF522D1E357EE2001217E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABF52341E357EE2001217E7;
+			remoteInfo = "Ocell boig";
+		};
+		6ABF525B1E357EE2001217E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABF522D1E357EE2001217E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABF52341E357EE2001217E7;
+			remoteInfo = "Ocell boig";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A04E14F1E35820D008B5BFA /* Blue 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue 1.png"; sourceTree = "<group>"; };
+		6A04E1501E35820D008B5BFA /* Blue 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue 2.png"; sourceTree = "<group>"; };
+		6A04E1511E35820D008B5BFA /* Blue 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue 3.png"; sourceTree = "<group>"; };
+		6A04E1521E35820D008B5BFA /* Blue 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue 4.png"; sourceTree = "<group>"; };
+		6A04E1571E35821A008B5BFA /* Green 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green 1.png"; sourceTree = "<group>"; };
+		6A04E1581E35821A008B5BFA /* Green 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green 2.png"; sourceTree = "<group>"; };
+		6A04E1591E35821A008B5BFA /* Green 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green 3.png"; sourceTree = "<group>"; };
+		6A04E15A1E35821A008B5BFA /* Green 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green 4.png"; sourceTree = "<group>"; };
+		6A04E15F1E35822C008B5BFA /* Red 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red 1.png"; sourceTree = "<group>"; };
+		6A04E1601E35822C008B5BFA /* Red 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red 2.png"; sourceTree = "<group>"; };
+		6A04E1611E35822C008B5BFA /* Red 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red 3.png"; sourceTree = "<group>"; };
+		6A04E1621E35822C008B5BFA /* Red 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red 4.png"; sourceTree = "<group>"; };
+		6A04E1681E35824F008B5BFA /* 04b_19.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04b_19.ttf; sourceTree = "<group>"; };
+		6A04E16A1E358269008B5BFA /* Dead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dead.mp3; sourceTree = "<group>"; };
+		6A04E16B1E358269008B5BFA /* Fly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fly.mp3; sourceTree = "<group>"; };
+		6A04E16C1E358269008B5BFA /* Score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Score.mp3; sourceTree = "<group>"; };
+		6ABF52351E357EE2001217E7 /* Ocell boig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocell boig.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF52381E357EE2001217E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ABF523A1E357EE2001217E7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6ABF523C1E357EE2001217E7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		6ABF523E1E357EE2001217E7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6ABF52401E357EE2001217E7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6ABF52431E357EE2001217E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ABF52451E357EE2001217E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABF52481E357EE2001217E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ABF524A1E357EE2001217E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABF524F1E357EE2001217E7 /* Ocell boigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ocell boigTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF52531E357EE2001217E7 /* Ocell_boigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocell_boigTests.swift; sourceTree = "<group>"; };
+		6ABF52551E357EE2001217E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABF525A1E357EE2001217E7 /* Ocell boigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ocell boigUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF525E1E357EE2001217E7 /* Ocell_boigUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocell_boigUITests.swift; sourceTree = "<group>"; };
+		6ABF52601E357EE2001217E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABF52321E357EE2001217E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF524C1E357EE2001217E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF52571E357EE2001217E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A04E14B1E358199008B5BFA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6A04E1691E358256008B5BFA /* Sounds */,
+				6A04E1671E358243008B5BFA /* Fonts */,
+				6A04E14E1E3581BE008B5BFA /* Bird Red */,
+				6A04E14D1E3581B6008B5BFA /* Bird Green */,
+				6A04E14C1E3581AA008B5BFA /* Bird Blue */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6A04E14C1E3581AA008B5BFA /* Bird Blue */ = {
+			isa = PBXGroup;
+			children = (
+				6A04E14F1E35820D008B5BFA /* Blue 1.png */,
+				6A04E1501E35820D008B5BFA /* Blue 2.png */,
+				6A04E1511E35820D008B5BFA /* Blue 3.png */,
+				6A04E1521E35820D008B5BFA /* Blue 4.png */,
+			);
+			name = "Bird Blue";
+			sourceTree = "<group>";
+		};
+		6A04E14D1E3581B6008B5BFA /* Bird Green */ = {
+			isa = PBXGroup;
+			children = (
+				6A04E1571E35821A008B5BFA /* Green 1.png */,
+				6A04E1581E35821A008B5BFA /* Green 2.png */,
+				6A04E1591E35821A008B5BFA /* Green 3.png */,
+				6A04E15A1E35821A008B5BFA /* Green 4.png */,
+			);
+			name = "Bird Green";
+			sourceTree = "<group>";
+		};
+		6A04E14E1E3581BE008B5BFA /* Bird Red */ = {
+			isa = PBXGroup;
+			children = (
+				6A04E15F1E35822C008B5BFA /* Red 1.png */,
+				6A04E1601E35822C008B5BFA /* Red 2.png */,
+				6A04E1611E35822C008B5BFA /* Red 3.png */,
+				6A04E1621E35822C008B5BFA /* Red 4.png */,
+			);
+			name = "Bird Red";
+			sourceTree = "<group>";
+		};
+		6A04E1671E358243008B5BFA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6A04E1681E35824F008B5BFA /* 04b_19.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6A04E1691E358256008B5BFA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6A04E16A1E358269008B5BFA /* Dead.mp3 */,
+				6A04E16B1E358269008B5BFA /* Fly.mp3 */,
+				6A04E16C1E358269008B5BFA /* Score.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		6ABF522C1E357EE2001217E7 = {
+			isa = PBXGroup;
+			children = (
+				6ABF52371E357EE2001217E7 /* Ocell boig */,
+				6A04E14B1E358199008B5BFA /* Assets */,
+				6ABF52521E357EE2001217E7 /* Ocell boigTests */,
+				6ABF525D1E357EE2001217E7 /* Ocell boigUITests */,
+				6ABF52361E357EE2001217E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABF52361E357EE2001217E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF52351E357EE2001217E7 /* Ocell boig.app */,
+				6ABF524F1E357EE2001217E7 /* Ocell boigTests.xctest */,
+				6ABF525A1E357EE2001217E7 /* Ocell boigUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABF52371E357EE2001217E7 /* Ocell boig */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF52381E357EE2001217E7 /* AppDelegate.swift */,
+				6ABF523A1E357EE2001217E7 /* GameScene.sks */,
+				6ABF523C1E357EE2001217E7 /* Actions.sks */,
+				6ABF523E1E357EE2001217E7 /* GameScene.swift */,
+				6ABF52401E357EE2001217E7 /* GameViewController.swift */,
+				6ABF52421E357EE2001217E7 /* Main.storyboard */,
+				6ABF52451E357EE2001217E7 /* Assets.xcassets */,
+				6ABF52471E357EE2001217E7 /* LaunchScreen.storyboard */,
+				6ABF524A1E357EE2001217E7 /* Info.plist */,
+			);
+			path = "Ocell boig";
+			sourceTree = "<group>";
+		};
+		6ABF52521E357EE2001217E7 /* Ocell boigTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF52531E357EE2001217E7 /* Ocell_boigTests.swift */,
+				6ABF52551E357EE2001217E7 /* Info.plist */,
+			);
+			path = "Ocell boigTests";
+			sourceTree = "<group>";
+		};
+		6ABF525D1E357EE2001217E7 /* Ocell boigUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF525E1E357EE2001217E7 /* Ocell_boigUITests.swift */,
+				6ABF52601E357EE2001217E7 /* Info.plist */,
+			);
+			path = "Ocell boigUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABF52341E357EE2001217E7 /* Ocell boig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF52631E357EE2001217E7 /* Build configuration list for PBXNativeTarget "Ocell boig" */;
+			buildPhases = (
+				6ABF52311E357EE2001217E7 /* Sources */,
+				6ABF52321E357EE2001217E7 /* Frameworks */,
+				6ABF52331E357EE2001217E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ocell boig";
+			productName = "Ocell boig";
+			productReference = 6ABF52351E357EE2001217E7 /* Ocell boig.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABF524E1E357EE2001217E7 /* Ocell boigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF52661E357EE2001217E7 /* Build configuration list for PBXNativeTarget "Ocell boigTests" */;
+			buildPhases = (
+				6ABF524B1E357EE2001217E7 /* Sources */,
+				6ABF524C1E357EE2001217E7 /* Frameworks */,
+				6ABF524D1E357EE2001217E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABF52511E357EE2001217E7 /* PBXTargetDependency */,
+			);
+			name = "Ocell boigTests";
+			productName = "Ocell boigTests";
+			productReference = 6ABF524F1E357EE2001217E7 /* Ocell boigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ABF52591E357EE2001217E7 /* Ocell boigUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF52691E357EE2001217E7 /* Build configuration list for PBXNativeTarget "Ocell boigUITests" */;
+			buildPhases = (
+				6ABF52561E357EE2001217E7 /* Sources */,
+				6ABF52571E357EE2001217E7 /* Frameworks */,
+				6ABF52581E357EE2001217E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABF525C1E357EE2001217E7 /* PBXTargetDependency */,
+			);
+			name = "Ocell boigUITests";
+			productName = "Ocell boigUITests";
+			productReference = 6ABF525A1E357EE2001217E7 /* Ocell boigUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABF522D1E357EE2001217E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "The Fox Game Studio";
+				TargetAttributes = {
+					6ABF52341E357EE2001217E7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DGH5JX25RJ;
+						ProvisioningStyle = Automatic;
+					};
+					6ABF524E1E357EE2001217E7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DGH5JX25RJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABF52341E357EE2001217E7;
+					};
+					6ABF52591E357EE2001217E7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DGH5JX25RJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABF52341E357EE2001217E7;
+					};
+				};
+			};
+			buildConfigurationList = 6ABF52301E357EE2001217E7 /* Build configuration list for PBXProject "Ocell boig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABF522C1E357EE2001217E7;
+			productRefGroup = 6ABF52361E357EE2001217E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABF52341E357EE2001217E7 /* Ocell boig */,
+				6ABF524E1E357EE2001217E7 /* Ocell boigTests */,
+				6ABF52591E357EE2001217E7 /* Ocell boigUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABF52331E357EE2001217E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A04E16D1E35826A008B5BFA /* Dead.mp3 in Resources */,
+				6A04E15E1E35821A008B5BFA /* Green 4.png in Resources */,
+				6A04E1551E35820D008B5BFA /* Blue 3.png in Resources */,
+				6ABF52441E357EE2001217E7 /* Main.storyboard in Resources */,
+				6A04E15D1E35821A008B5BFA /* Green 3.png in Resources */,
+				6A04E1631E35822C008B5BFA /* Red 1.png in Resources */,
+				6A04E1641E35822C008B5BFA /* Red 2.png in Resources */,
+				6A04E16E1E35826A008B5BFA /* Fly.mp3 in Resources */,
+				6A04E15B1E35821A008B5BFA /* Green 1.png in Resources */,
+				6A04E1561E35820D008B5BFA /* Blue 4.png in Resources */,
+				6A04E15C1E35821A008B5BFA /* Green 2.png in Resources */,
+				6ABF523B1E357EE2001217E7 /* GameScene.sks in Resources */,
+				6A04E1651E35822C008B5BFA /* Red 3.png in Resources */,
+				6A04E1661E35822C008B5BFA /* Red 4.png in Resources */,
+				6A04E1541E35820D008B5BFA /* Blue 2.png in Resources */,
+				6A04E16F1E35826A008B5BFA /* Score.mp3 in Resources */,
+				6A04E1531E35820D008B5BFA /* Blue 1.png in Resources */,
+				6ABF52461E357EE2001217E7 /* Assets.xcassets in Resources */,
+				6ABF52491E357EE2001217E7 /* LaunchScreen.storyboard in Resources */,
+				6ABF523D1E357EE2001217E7 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF524D1E357EE2001217E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF52581E357EE2001217E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABF52311E357EE2001217E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF523F1E357EE2001217E7 /* GameScene.swift in Sources */,
+				6ABF52411E357EE2001217E7 /* GameViewController.swift in Sources */,
+				6ABF52391E357EE2001217E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF524B1E357EE2001217E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF52541E357EE2001217E7 /* Ocell_boigTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF52561E357EE2001217E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF525F1E357EE2001217E7 /* Ocell_boigUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABF52511E357EE2001217E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABF52341E357EE2001217E7 /* Ocell boig */;
+			targetProxy = 6ABF52501E357EE2001217E7 /* PBXContainerItemProxy */;
+		};
+		6ABF525C1E357EE2001217E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABF52341E357EE2001217E7 /* Ocell boig */;
+			targetProxy = 6ABF525B1E357EE2001217E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABF52421E357EE2001217E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABF52431E357EE2001217E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ABF52471E357EE2001217E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABF52481E357EE2001217E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABF52611E357EE2001217E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ABF52621E357EE2001217E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABF52641E357EE2001217E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGH5JX25RJ;
+				INFOPLIST_FILE = "Ocell boig/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxgamestudio.Ocell-boig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6ABF52651E357EE2001217E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGH5JX25RJ;
+				INFOPLIST_FILE = "Ocell boig/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxgamestudio.Ocell-boig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6ABF52671E357EE2001217E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DGH5JX25RJ;
+				INFOPLIST_FILE = "Ocell boigTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxgamestudio.Ocell-boigTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ocell boig.app/Ocell boig";
+			};
+			name = Debug;
+		};
+		6ABF52681E357EE2001217E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DGH5JX25RJ;
+				INFOPLIST_FILE = "Ocell boigTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxgamestudio.Ocell-boigTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ocell boig.app/Ocell boig";
+			};
+			name = Release;
+		};
+		6ABF526A1E357EE2001217E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DGH5JX25RJ;
+				INFOPLIST_FILE = "Ocell boigUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxgamestudio.Ocell-boigUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ocell boig";
+			};
+			name = Debug;
+		};
+		6ABF526B1E357EE2001217E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DGH5JX25RJ;
+				INFOPLIST_FILE = "Ocell boigUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foxgamestudio.Ocell-boigUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ocell boig";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABF52301E357EE2001217E7 /* Build configuration list for PBXProject "Ocell boig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF52611E357EE2001217E7 /* Debug */,
+				6ABF52621E357EE2001217E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF52631E357EE2001217E7 /* Build configuration list for PBXNativeTarget "Ocell boig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF52641E357EE2001217E7 /* Debug */,
+				6ABF52651E357EE2001217E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF52661E357EE2001217E7 /* Build configuration list for PBXNativeTarget "Ocell boigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF52671E357EE2001217E7 /* Debug */,
+				6ABF52681E357EE2001217E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF52691E357EE2001217E7 /* Build configuration list for PBXNativeTarget "Ocell boigUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF526A1E357EE2001217E7 /* Debug */,
+				6ABF526B1E357EE2001217E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABF522D1E357EE2001217E7 /* Project object */;
+}
